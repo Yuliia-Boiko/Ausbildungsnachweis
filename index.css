@@ -72,3 +72,7 @@ button {
   max-width: 7rem;
   padding: 0.5rem;
 }
+
+.hidden {
+  display: none;
+}
