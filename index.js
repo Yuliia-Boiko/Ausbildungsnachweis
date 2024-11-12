@@ -8,7 +8,7 @@ journalForm.addEventListener("submit", (event) => {
   journalForm.reset();
 });
 function createSection(data) {
-  const section = document.createElement("section", ".container-md");
+  const section = document.createElement("div", ".container-md");
   for (const [key, value] of Object.entries(data)) {
     if (!!value) {
       const row = document.createElement("div", ".list-group list-group-flush");
