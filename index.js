@@ -1,10 +1,4 @@
 const journalForm = document.querySelector("#journal-form");
-const editButton = document.querySelector(".glyphicon-pencil");
-const textArea = document.querySelector(".form-control-text");
-
-editButton.addEventListener("click", () => {
-  textArea.disabled = false;
-});
 
 journalForm.addEventListener("submit", (event) => {
   event.preventDefault();
