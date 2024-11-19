@@ -28,6 +28,12 @@ button {
   justify-items: center;
 }
 
+.journal-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .activity-label {
   grid-area: activity-label;
 }
